@@ -272,7 +272,7 @@ namespace StringCalculator.Tests
         public void StringCalculator_Add_InputTwoDelimitersOfTwoOrMoreCharOneOneOneOne_ReturnsFour()
         {
             // Arrange
-            var fakeInput = "//[****][!!|]\n1****1!!|1***1";
+            var fakeInput = "//[****][!!|]\n1****1!!|1****1";
             var expectedResult = 4;
             // Act
             var result = _calculator.Add(fakeInput);
